@@ -40,8 +40,7 @@ def sort(array):
 
         if partition_idx == 0:
             partition_idx = 1
-
-            
+   
         if low_idx == high_idx: # 配列の分割
             low_array = array[0:partition_idx]
             high_array = array[partition_idx:len(array)]     
